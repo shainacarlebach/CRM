@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/styles/style.css" rel="stylesheet" type="text/css">
+    <title> CRM </title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="updateLeads">
+            <h2>Update leads </h2>
+            <label for="id">Leads Id:</label>
+            </br>
+            <input type="number" id="id" placeholder="leads id" onchange="checkId()">
+            </br>
+            <div id="id_error"></div>
+            </br>
+            </br>
+            <h3>Update values:</h3>
+            <label for="lead_name">Update Name:</label>
+            </br>
+            <input type="text"id="lead_name" placeholder="leads new name">
+            </br>
+            <label for="lead_phone">Update Phone No:</label>
+            </br>
+            <input type="number"id="lead_phone" placeholder="leads new phone">
+            </br> 
+            <label for="product_id">Update product:</label>
+            </br>
+             <input type="text"id="product_id" placeholder="leads new product">
+            </br>
+
+            <button id ="ajaxButton" class="btn btn-warning" type="button">Update leads</button>
+            </br>
+            <table id="result" class="container"></table>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="/scripts/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+*{
+    margin:auto 0;
+    text-align:center;
+}
+
+body
+{
+    background-color:lightskyblue;
+}
+
+button{
+    width:150px;
+}
+
+.leads{
+    margin:100px;
+    background-color:lightblue;
+    padding:50px;
+}
+
